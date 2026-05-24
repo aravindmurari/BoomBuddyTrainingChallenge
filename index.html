@@ -203,9 +203,17 @@
   .q-text { font-size: 22px; color: #3a3020; line-height: 1.45; }
   .ch-timer-bar {
     background: #2a1f00; border-radius: 10px;
-    padding: 18px 28px; margin-top: 36px;
-    font-size: 18px; color: #e8c040; font-weight: bold; letter-spacing: 1px;
-    text-align: center; line-height: 1.4;
+    padding: 22px 28px; margin-top: 36px;
+    text-align: center;
+  }
+  .ch-timer-row {
+    font-size: 20px; color: #e8c040; font-weight: bold;
+    letter-spacing: 0.5px; line-height: 1.6;
+  }
+  .ch-timer-emphasis {
+    margin-top: 10px; padding-top: 10px;
+    border-top: 1px solid rgba(200,160,32,0.3);
+    font-size: 14px; color: #c8a020; font-style: italic; letter-spacing: 1px;
   }
 </style>
 </head>
@@ -532,7 +540,9 @@
   </div>
 
   <div class="ch-timer-bar">
-    ⏱ &nbsp;5 minutes to ideate &nbsp;·&nbsp; then present to the room &nbsp;·&nbsp; This will be timed!
+    <div class="ch-timer-row">⏱ &nbsp;5 minutes to ideate</div>
+    <div class="ch-timer-row">Then present to the room</div>
+    <div class="ch-timer-emphasis">This will be timed!</div>
   </div>
 
   <div class="p1-footer" style="margin-top: 20px;">
