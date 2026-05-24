@@ -150,6 +150,28 @@
     font-size: 9px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase;
     color: #c8a020; margin-bottom: 6px;
   }
+
+  /* ── TRIVIA PAGE ── */
+  .trivia-list { margin-top: 8px; }
+  .trivia-item {
+    border-bottom: 1px solid rgba(200,160,32,0.2);
+    padding: 18px 0;
+  }
+  .trivia-item:last-child { border-bottom: none; }
+  .trivia-q {
+    font-size: 14px; font-weight: bold; color: #2a1f00;
+    line-height: 1.5; margin-bottom: 12px;
+  }
+  .trivia-options { display: flex; gap: 12px; flex-wrap: wrap; }
+  .t-opt {
+    background: #fffdf5; border: 1.5px solid rgba(200,160,32,0.35);
+    border-radius: 6px; padding: 7px 18px;
+    font-size: 12px; color: #5a4a10; font-weight: bold;
+  }
+  .t-correct {
+    background: #2a1f00; color: #e8c040;
+    border-color: #2a1f00;
+  }
 </style>
 </head>
 <body>
@@ -343,6 +365,74 @@
         <span class="wbox">Reach</span>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- TRIVIA PAGE -->
+<div class="page">
+  <div class="header">
+    <div class="header-left"><img class="logo-img" src="https://static.sadhguru.org/d/46272/1739879389-group-1597883432.png" alt="Miracle of Mind"></div>
+    <div class="header-right">
+      <h1>Trivia Round</h1>
+      <p>Boom Buddy Training &nbsp;·&nbsp; Miracle of Mind</p>
+    </div>
+  </div>
+
+  <div class="trivia-list">
+
+    <div class="trivia-item">
+      <div class="trivia-q">How long did it take Miracle of Mind to hit 1 million downloads?</div>
+      <div class="trivia-options">
+        <span class="t-opt">A &nbsp; 7 days</span>
+        <span class="t-opt">B &nbsp; 30 days</span>
+        <span class="t-opt t-correct">C &nbsp; 15 hours</span>
+        <span class="t-opt">D &nbsp; 3 days</span>
+      </div>
+    </div>
+
+    <div class="trivia-item">
+      <div class="trivia-q">How many scientific studies back the Miracle of Mind practice?</div>
+      <div class="trivia-options">
+        <span class="t-opt">A &nbsp; 5+</span>
+        <span class="t-opt t-correct">B &nbsp; 20+</span>
+        <span class="t-opt">C &nbsp; 50+</span>
+        <span class="t-opt">D &nbsp; 10+</span>
+      </div>
+    </div>
+
+    <div class="trivia-item">
+      <div class="trivia-q">According to Harvard-affiliated research, neurophysiological effects from meditation peak at what duration?</div>
+      <div class="trivia-options">
+        <span class="t-opt">A &nbsp; 3 minutes</span>
+        <span class="t-opt">B &nbsp; 15 minutes</span>
+        <span class="t-opt">C &nbsp; 21 minutes</span>
+        <span class="t-opt t-correct">D &nbsp; 7 minutes</span>
+      </div>
+    </div>
+
+    <div class="trivia-item">
+      <div class="trivia-q">What is the minimum age to practice Miracle of Mind?</div>
+      <div class="trivia-options">
+        <span class="t-opt">A &nbsp; 12 years</span>
+        <span class="t-opt t-correct">B &nbsp; 6 years</span>
+        <span class="t-opt">C &nbsp; 10 years</span>
+        <span class="t-opt">D &nbsp; 18 years</span>
+      </div>
+    </div>
+
+    <div class="trivia-item">
+      <div class="trivia-q">True or False — You need to complete Inner Engineering or a more advanced program before you can share Miracle of Mind with others.</div>
+      <div class="trivia-options">
+        <span class="t-opt">A &nbsp; True</span>
+        <span class="t-opt t-correct">B &nbsp; False</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p1-footer" style="margin-top: auto;">
+    <div class="p1-footer-left"><strong>Answer key:</strong> 1-C &nbsp;·&nbsp; 2-B &nbsp;·&nbsp; 3-D &nbsp;·&nbsp; 4-B &nbsp;·&nbsp; 5-False</div>
+    <div class="p1-footer-right">Boom Buddy Resource Kit · Isha Foundation</div>
   </div>
 </div>
 </body></html>
