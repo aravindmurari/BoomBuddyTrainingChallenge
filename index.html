@@ -24,8 +24,9 @@
   #print-btn:hover { background: #e8c040; color: #2a1f00; }
   body { padding-top: 48px; }
   @media print {
+    @page { size: letter; margin: 0; }
     #print-bar { display: none; }
-    body { padding-top: 0; background: #fff; }
+    body { padding-top: 0; background: #fff; margin: 0; }
   }
 
   /* ── PAGE 1: FACILITATOR PLAN ── */
